@@ -58,6 +58,9 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @php
+                            $i = 0;
+                        @endphp
                         @forelse ($rsetKategori as $rowkategori)
                             <tr>
                                 <td>{{ ++$i }}</td>

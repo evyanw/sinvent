@@ -76,7 +76,7 @@
                     </thead>
                     <tbody>
                         @php
-                        $i = 0;
+                            $i = 0;
                         @endphp
                         @forelse ($rsetBarang as $rowbarang)
                             <tr>
