@@ -67,7 +67,7 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="/register">Dereng Duwe Account! REGISTER puh sepuh</a>
+                                        <a class="small" href="/register">Belum Punya Akun ? REGISTER !</a>
                                     </div> 
                                 </div>
                             </div>

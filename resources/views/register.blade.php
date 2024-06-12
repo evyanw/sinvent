@@ -79,7 +79,7 @@
                             </form>
                             <hr>
                             <div class="text-center">
-                                <a class="small" href="/login">Sampun duwe akun? Login puh sepuh!</a>
+                                <a class="small" href="/login">Sudah Punya Akun ? LOGIN !</a>
                             </div>
                         </div>
                     </div>
