@@ -83,7 +83,7 @@ class BarangMasukController extends Controller
 
         if ($referencedInBarangKeluar) {
         // Jika ada referensi, penghapusan ditolak
-        return redirect()->route('barangmasuk.index')->with(['error' => 'Data Tidak Bisa Dihapus Karena Masih Digunakan di Tabel Barang dan Barang Keluar!']);
+        return redirect()->route('barangmasuk.index')->with(['error' => 'Data Tidak Bisa Dihapus Karena Masih Digunakan di Tabel Barang Keluar!']);
         }
 
         // Menghapus record di tabel BarangMasuk

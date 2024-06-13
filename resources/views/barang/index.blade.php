@@ -85,7 +85,7 @@
                                 <td>{{ $rowbarang->stok  }}</td>
                                 <td>{{ $rowbarang->kategori->deskripsi  }}</td>
                                 <td class="text-center">
-                                    <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('barang.destroy', $rowbarang->id) }}" method="POST">
+                                    <form onsubmit="return confirm('Apakah Anda Yakin Ingin Menghapus Barang ?');" action="{{ route('barang.destroy', $rowbarang->id) }}" method="POST">
                                         <a href="{{ route('barang.show', $rowbarang->id) }}" class="btn btn-sm btn-dark"><i class="fa fa-eye"></i></a>
                                         <a href="{{ route('barang.edit', $rowbarang->id) }}" class="btn btn-sm btn-primary"><i class="fa fa-pencil-alt"></i></a>
                                         @csrf
